@@ -5,7 +5,7 @@ import json
 fake = Faker()
 
 def generate_fake_employee():
-    designations = ["Data Scientist, Software Engineer, Front-end developer, Back-end Developer, Devops Engineer"]
+    designations = ["Data Scientist", "Software Engineer", "Front-end developer", "Back-end Developer", "Devops Engineer"]
     employee = {
         "first_name": fake.first_name(),
         "last_name": fake.last_name(),
